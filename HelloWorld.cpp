@@ -1,3 +1,4 @@
+// Code can be formatted using "Edit > Advanced > Format Document/Format Selection"
 // We use a preprocessor directive to tell the compiler what library within the C++ Standard Library we'd like to use.
 # include <iostream>
 
@@ -32,5 +33,5 @@ int main()
 	// Logging the value of both created variables.
 	// std::cout << "You entered: " << y << " and " << z;
 	return 0;
-// Denoting the end of the function block using a }.
+	// Denoting the end of the function block using a }.
 }
