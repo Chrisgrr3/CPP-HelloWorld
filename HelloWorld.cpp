@@ -14,7 +14,13 @@ int main()
 	std::cout << "Please enter a number: ";
 	int x{};
 	std::cin >> x;
-	std::cout << "You entered:\n" << x;
+	std::cout << "You entered:\n" << x << '\n';
+
+	std::cout << "Now, enter two numbers separated by a space: ";
+	int y{};
+	int z{};
+	std::cin >> y >> z;
+	std::cout << "You entered: " << y << " and " << z;
 	return 0;
 // Denoting the end of the function block using a }.
 }
