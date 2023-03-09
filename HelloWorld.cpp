@@ -12,14 +12,20 @@ int main()
 	// Each statemenent must end in a semicolon (;).
 	// We return a number to the OS to dictate how the program went. Returning 0 means everything went fine.
 	std::cout << "Please enter a number: ";
+	// Value initialization of x variable
 	int x{};
+	// Taking character input and extracting value to x variable
 	std::cin >> x;
+	// Outputing the value assigned to variable x
 	std::cout << "You entered:\n" << x << '\n';
 
 	std::cout << "Now, enter two numbers separated by a space: ";
+	// Value initializing variables y and z
 	int y{};
 	int z{};
+	// Taking user input and assigning each number to their respective variable.
 	std::cin >> y >> z;
+	// Logging the value of both created variables.
 	std::cout << "You entered: " << y << " and " << z;
 	return 0;
 // Denoting the end of the function block using a }.
