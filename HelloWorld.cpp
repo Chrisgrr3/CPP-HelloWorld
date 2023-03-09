@@ -23,14 +23,14 @@ int main()
 	std::cout << "You entered:\n" << x << '\n';
 
 
-	std::cout << "Now, enter two numbers separated by a space: ";
+	// std::cout << "Now, enter two numbers separated by a space: ";
 	// Value initializing variables y and z
-	int y{};
-	int z{};
+	// int y{};
+	// int z{};
 	// Taking user input and assigning each number to their respective variable.
-	std::cin >> y >> z;
+	// std::cin >> y >> z;
 	// Logging the value of both created variables.
-	std::cout << "You entered: " << y << " and " << z;
+	// std::cout << "You entered: " << y << " and " << z;
 	return 0;
 // Denoting the end of the function block using a }.
 }
