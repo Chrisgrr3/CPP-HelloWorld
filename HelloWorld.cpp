@@ -11,6 +11,10 @@ int main()
 	// std::cout << "Hello world!";
 	// Each statemenent must end in a semicolon (;).
 	// We return a number to the OS to dictate how the program went. Returning 0 means everything went fine.
-
+	std::cout << "Please enter a number: ";
+	int x{};
+	std::cin >> x;
+	std::cout << "You entered:\n" << x;
+	return 0;
 // Denoting the end of the function block using a }.
 }
