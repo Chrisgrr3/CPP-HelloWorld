@@ -10,6 +10,9 @@ int main()
 	The string "Hello World!" is being sent to the console.*/
 	// std::cout << "Hello world!";
 	// Each statemenent must end in a semicolon (;).
+	// return 0;
+
+
 	// We return a number to the OS to dictate how the program went. Returning 0 means everything went fine.
 	std::cout << "Please enter a number: ";
 	// Value initialization of x variable
@@ -18,6 +21,7 @@ int main()
 	std::cin >> x;
 	// Outputing the value assigned to variable x
 	std::cout << "You entered:\n" << x << '\n';
+
 
 	std::cout << "Now, enter two numbers separated by a space: ";
 	// Value initializing variables y and z
